@@ -1,27 +1,27 @@
-# Projeto de Tradução Automática de Artigos Técnicos
+# Technical Article Automatic Translation Project
 
-## Descrição
+## Description
 
-Este projeto tem como objetivo desenvolver uma solução de tradução automática para artigos técnicos utilizando os Serviços de Inteligência Artificial do Azure. O foco principal é garantir a precisão terminológica e o contexto específico do domínio técnico, facilitando o acesso a conteúdos especializados em diferentes idiomas.
+This project aims to develop an automatic translation solution for technical articles using Azure AI Services. The main focus is to ensure terminological accuracy and domain-specific context, facilitating access to specialized content in different languages.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - Python
 - Azure AI Services
 - Azure Cognitive Services
 - Azure Machine Learning
 
-## Funcionalidades
+## Features
 
-- **Tradução Automática**: Utiliza o serviço de tradução do Azure para traduzir textos técnicos com alta precisão.
-- **Precisão Terminológica**: A solução é projetada para manter a integridade e a precisão dos termos técnicos durante a tradução.
-- **Interface Simples**: Um script Python fácil de usar que aceita artigos em um idioma e retorna a tradução em outro.
+- **Automatic Translation**: Utilizes Azure's translation service to translate technical texts with high accuracy.
+- **Terminological Accuracy**: The solution is designed to maintain the integrity and accuracy of technical terms during translation.
+- **Simple Interface**: An easy-to-use Python script that accepts articles in one language and returns the translation in another.
 
-## Pré-requisitos
+## Prerequisites
 
-Antes de começar, você precisará ter:
+Before getting started, you will need:
 
-1. Uma conta no Azure e acesso aos Serviços de IA do Azure.
-2. A biblioteca `azure-ai-translation-document` instalada. Você pode instalar usando pip:
+1. An Azure account with access to Azure AI Services.
+2. The `azure-ai-translation-document` library installed. You can install it using pip:
    ```bash
    pip install azure-ai-translation-document
